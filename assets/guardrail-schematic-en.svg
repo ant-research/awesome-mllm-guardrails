@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome MLLM Guardrails</title>
+  <desc id="desc">Collection of research papers and tools for MLLM guardrails, with safe and unsafe inputs and outputs around a protected model.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="58%" stop-color="#f6f9ff"/>
+      <stop offset="100%" stop-color="#eef8f3"/>
+    </radialGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="model" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#172033"/>
+      <stop offset="100%" stop-color="#334761"/>
+    </linearGradient>
+    <filter id="shadow" x="-22%" y="-25%" width="144%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#102033" flood-opacity="0.16"/>
+    </filter>
+    <marker id="safe-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#059669"/>
+    </marker>
+    <marker id="risk-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#e11d48"/>
+    </marker>
+    <style>
+      .title { font: 900 42px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #102033; }
+      .subtitle { font: 700 17px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #536174; }
+      .label { font: 800 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+      .white { font: 900 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; }
+      .chip-safe { fill: #ecfdf5; stroke: #b7e4ce; stroke-width: 1.2; rx: 22; filter: url(#shadow); }
+      .chip-risk { fill: #fff1f2; stroke: #fecdd3; stroke-width: 1.2; rx: 22; filter: url(#shadow); }
+      .model { fill: url(#model); rx: 34; filter: url(#shadow); }
+      .shield { fill: none; stroke: url(#shield); stroke-width: 15; stroke-linejoin: round; stroke-linecap: round; filter: url(#shadow); }
+      .safe-line { stroke: #059669; stroke-width: 4.5; fill: none; stroke-dasharray: 18 13; marker-end: url(#safe-arrow); }
+      .risk-line { stroke: #e11d48; stroke-width: 4.5; fill: none; stroke-dasharray: 14 12; marker-end: url(#risk-arrow); }
+      .block { stroke: #e11d48; stroke-width: 8; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="520" rx="30" fill="url(#bg)"/>
+  <text x="64" y="72" class="title">Awesome MLLM Guardrails</text>
+  <text x="66" y="104" class="subtitle">Collection of Research Papers &amp; Tools</text>
+
+  <g class="float">
+    <rect x="98" y="160" width="158" height="48" class="chip-safe"/>
+    <text x="129" y="191" class="label">Safe Input</text>
+  </g>
+  <g class="float2">
+    <rect x="98" y="314" width="158" height="48" class="chip-risk"/>
+    <text x="121" y="345" class="label">Unsafe Input</text>
+  </g>
+
+  <path d="M258 184 C356 170 434 180 512 218" class="safe-line"/>
+  <path d="M258 338 C366 352 438 338 506 304" class="risk-line"/>
+
+  <path class="shield" d="M640 116 C726 154 784 154 858 142 V254 C858 374 770 432 640 474 C510 432 422 374 422 254 V142 C496 154 554 154 640 116 Z"/>
+
+  <rect x="520" y="202" width="240" height="146" class="model"/>
+  <text x="600" y="264" class="white">MLLM</text>
+  <rect x="577" y="288" width="126" height="34" rx="17" fill="#ffffff" opacity="0.95"/>
+  <text x="608" y="311" class="label">Model</text>
+
+  <line x1="468" y1="332" x2="510" y2="290" class="block"/>
+  <line x1="510" y1="332" x2="468" y2="290" class="block"/>
+
+  <path d="M768 218 C846 180 930 170 1022 184" class="safe-line"/>
+  <path d="M770 304 C850 346 936 352 1022 338" class="risk-line"/>
+
+  <g class="float">
+    <rect x="1024" y="160" width="158" height="48" class="chip-safe"/>
+    <text x="1049" y="191" class="label">Safe Output</text>
+  </g>
+  <g class="float2">
+    <rect x="1024" y="314" width="158" height="48" class="chip-risk"/>
+    <text x="1041" y="345" class="label">Unsafe Output</text>
+  </g>
+
+  <line x1="998" y1="366" x2="1040" y2="324" class="block"/>
+  <line x1="1040" y1="366" x2="998" y2="324" class="block"/>
+</svg>
