@@ -40,6 +40,9 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 
 | Benchmark | Paper | Venue & Year | Modality | Description / Highlights | Links |
 | :-------- | :--- | :----------- | :------- | :----------------------- | :---- |
+| **Gate AI Eval Harness** | [Gate AI: LLM Security Benchmark Evaluation Methodology and Results](https://arxiv.org/abs/2606.02959) | arXiv 2026 | `[T]` | Evaluation harness for prompt-injection and jailbreak detectors across 16 public benchmarks with global operating-point selection | - |
+| **GuardZoo** | [Triaging Threats to Specialized Guardrails](https://arxiv.org/abs/2605.30693) | arXiv 2026 | `[T]` | Human-annotated guardrail benchmark with 32K+ samples across 15 unsafe categories | - |
+| **PII-Bench** | [GLiNER Guard: Unified Encoder Family for Production LLM Safety and Privacy](https://arxiv.org/abs/2605.05277) | arXiv 2026 | `[T]` | Span-level PII benchmark for end-to-end privacy detection in guardrail pipelines | [Dataset](https://huggingface.co/datasets/hivetrace/pii-bench) |
 | **ATBench** | [AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security](https://arxiv.org/abs/2601.18491) | arXiv 2026 | `[T]` | Fine-grained agentic safety benchmark with risk source, failure mode, and consequence taxonomy | [Project](https://ai45lab.github.io/AgentDoG/) |
 | **ExpGuardMix** | [ExpGuard: LLM Content Moderation in Specialized Domains](https://arxiv.org/abs/2603.02588) | ICLR 2026 | `[T]` | Domain-specific moderation data for finance, medical, and legal safety | [Dataset](https://huggingface.co/datasets/6rightjade/expguardmix) |
 | **Aegis2** | [AEGIS2.0: A Diverse AI Safety Dataset and Risks Taxonomy for Alignment of LLM Guardrails](https://arxiv.org/abs/2501.09004) | NAACL 2025 | `[T]` | Diverse safety data | [Dataset](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0) |
@@ -66,6 +69,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 
 | Benchmark | Paper | Venue & Year | Modality | Description / Highlights | Links |
 | :-------- | :--- | :----------- | :------- | :----------------------- | :---- |
+| **MTMCS-Bench** | [MTMCS-Bench: Evaluating Contextual Safety of Multimodal Large Language Models in Multi-Turn Dialogues](https://arxiv.org/abs/2601.06757) | arXiv 2026 | `[M]`,`[D]` | Multi-turn multimodal contextual safety benchmark with escalation and context-switch risk settings | [Dataset](https://huggingface.co/datasets/ND-25/MCS-bench)  [Code](https://github.com/franciscoliu/MTMCS-Bench) |
 | **VLSU** | [VLSU: Mapping the Limits of Joint Multimodal Understanding for AI Safety](https://arxiv.org/abs/2510.18214) | ICLR 2026 | `[M]` | Vision Language Safety Understanding (8K+ pairs) | - |
 | **SafeEditBench** | [Towards Policy-Adaptive Image Guardrail: Benchmark and Method](https://arxiv.org/abs/2603.01228) | arXiv 2026 | `[I]`,`[M]` | Cross-policy image guardrail benchmark with policy-aligned safe/unsafe image pairs | [Dataset](https://huggingface.co/datasets/tyodd/SafeEditBench) |
 | **SafeVision** | [SafeVision: Efficient Image Guardrail with Robust Policy Adherence and Explainability](https://arxiv.org/abs/2510.23960) | arXiv 2025 | `[M]` | Multimodal safety evaluation | - |
@@ -95,6 +99,15 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 
 | Model | Paper | Venue & Year | Modality | Description / Highlights | Links |
 | :---- | :--- | :----------- | :------- | :----------------------- | :---- |
+| **TRIAD** | [From Risk Classification to Action Plan Remediation: A Guardrail Feedback Driven Framework for LLM Agents](https://arxiv.org/abs/2606.05805) | arXiv 2026 | `[T]` | Guardrail-integrated agent framework that turns safety feedback into plan remediation instead of only allow/block decisions | [Code](https://github.com/YUHAOSUNABC/TRIAD) |
+| **Membrane** | [Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense](https://arxiv.org/abs/2606.05743) | arXiv 2026 | `[T]` | Self-evolving guardrail using Contrastive Safety Memory for adaptive jailbreak and agent-safety defense without retraining | - |
+| **GuardNet** | [GuardNet: Ensemble Strategies of Shallow Neural Networks for Robust Prompt Injection and Jailbreak Detection](https://arxiv.org/abs/2606.05566) | arXiv 2026 | `[T]` | Lightweight BiLSTM ensemble guardrail for low-latency prompt-injection and jailbreak detection | - |
+| **BraveGuard** | [BraveGuard: From Open-World Threats to Safer Computer-Use Agents](https://arxiv.org/abs/2606.01166) | arXiv 2026 | `[T]` | Self-evolving trajectory-level guard training from open-world threat signals for computer-use agents | [HF](https://huggingface.co/Yunhao-Feng/BraveGuard) |
+| **ConsisGuard** | [ConsisGuard: Aligning Safety Deliberation with Policy Enforcement in LLM Guardrails](https://arxiv.org/abs/2605.31073) | arXiv 2026 | `[T]` | Consistency-aware reasoning guardrail that aligns policy-grounded deliberation with final safety decisions | - |
+| **RouteGuard** | [Triaging Threats to Specialized Guardrails](https://arxiv.org/abs/2605.30693) | arXiv 2026 | `[T]` | Router-expert guardrail framework that dispatches conversations to specialized threat-domain experts | - |
+| **CoLaGuard** | [Robust and Efficient Guardrails with Latent Reasoning](https://arxiv.org/abs/2605.29068) | arXiv 2026 | `[T]` | Latent-reasoning guardrail that internalizes safety rationales for lower-latency prompt and response moderation | - |
+| **GLiNER Guard** | [GLiNER Guard: Unified Encoder Family for Production LLM Safety and Privacy](https://arxiv.org/abs/2605.05277) | arXiv 2026 | `[T]` | Unified encoder family for safety moderation, PII detection, and prompt attack detection in one forward pass | [HF](https://huggingface.co/collections/hivetrace/gliner-guard-v1)  [Dataset](https://huggingface.co/datasets/hivetrace/pii-bench) |
+| **GLiGuard** | [GLiGuard: Schema-Conditioned Classification for LLM Safeguard](https://arxiv.org/abs/2605.07982) | arXiv 2026 | `[T]` | Compact schema-conditioned bidirectional encoder for prompt safety, response safety, refusals, harm categories, and jailbreak strategies | [HF](https://huggingface.co/fastino/gliguard-LLMGuardrails-300M)  [Code](https://github.com/fastino-ai/GLiGuard) |
 | **FlexGuard** | [FlexGuard: Continuous Risk Scoring for Strictness-Adaptive LLM Content Moderation](https://arxiv.org/abs/2602.23636) | ACL 2026 | `[T]` | Continuous risk scoring | [HF](https://huggingface.co/Tommy-DING/FlexGuard-Qwen3-8B)  [Code](https://github.com/TommyDzh/FlexGuard) |
 | **SafeDream** | [SafeDream: Safety World Model for Proactive Early Jailbreak Detection](https://arxiv.org/abs/2604.16824) | arXiv 2026 | `[T]` | Safety alignment via dream methodology | - |
 | **MOSAIC** | [MOSAIC: Composable Safety Alignment with Modular Control Tokens](https://arxiv.org/abs/2603.16210) | arXiv 2026 | `[T]` | Multi-dimensional safety analysis | - |
@@ -119,6 +132,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 | **Safiron** | [Building a Foundational Guardrail for General Agentic Systems via Synthetic Data](https://arxiv.org/abs/2510.09781) | arXiv 2025 | `[T]` | Foundational pre-execution guardrail for general agentic systems trained with synthetic trajectories | - |
 | **AGrail** | [AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection](https://arxiv.org/abs/2502.11448) | ACL 2025 | `[T]` | Lifelong agent guardrail with adaptive safety check generation and test-time refinement | [Code](https://github.com/SaFoLab-WISC/AGrail4Agent) |
 | **RoboGuard** | [Safety Guardrails for LLM-Enabled Robots](https://arxiv.org/abs/2503.07885) | arXiv 2025 | `[T]` | Two-stage guardrail for robot plans using grounded safety rules and temporal logic synthesis | [Project](https://robo-guard.github.io/) |
+| **ShieldAgent** | [ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning](https://arxiv.org/abs/2503.22738) | arXiv 2025 | `[T]` | Guardrail agent using verifiable policy reasoning over agent action trajectories | [Project](https://shieldagent-aiguard.github.io/) |
 | **Llama Guard 3** | - | Meta Connect 2024 | `[M]` | Multimodal input/output guard | [HF](https://huggingface.co/meta-llama/Llama-Guard-3-8B) |
 | **Llama Guard 2** | - | Meta 2024 | `[T]` | Enhanced version | [HF](https://huggingface.co/meta-llama/Llama-Guard-2-8B) |
 | **ShieldGemma** | [ShieldGemma: Generative AI Content Moderation Based on Gemma](https://arxiv.org/abs/2407.21772) | arXiv 2024 | `[T]` | Google's safety filter | [HF](https://huggingface.co/google/shieldgemma-9b) |
@@ -138,6 +152,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 
 | Model | Paper | Venue & Year | Modality | Description / Highlights | Links |
 | :---- | :--- | :----------- | :------- | :----------------------- | :---- |
+| **GuardReasoner-Omni** | [GuardReasoner-Omni: A Reasoning-based Multi-modal Guardrail for Text, Image, Video, and Audio](https://arxiv.org/abs/2602.03328) | arXiv 2026 | `[M]` | Omni-modal reasoning guardrail for text, image, video, and audio moderation with SFT and RL training | [HF 3B](https://huggingface.co/zhu-thu-22/GuardReasoner-Omni-3B)  [HF 7B](https://huggingface.co/zhu-thu-22/GuardReasoner-Omni-7B) |
 | **VLSU** | [VLSU: Mapping the Limits of Joint Multimodal Understanding for AI Safety](https://arxiv.org/abs/2510.18214) | ICLR 2026 | `[M]` | Vision Language Safety Understanding (8K+ pairs) | [Code](https://github.com/apple/ml-vlsu) |
 | **SafeGuard-VL** | [Towards Policy-Adaptive Image Guardrail: Benchmark and Method](https://arxiv.org/abs/2603.01228) | arXiv 2026 | `[I]`,`[M]` | Policy-aware visual safety guardrail trained with RLVR/GRPO for dynamic safety policies | [HF](https://huggingface.co/tyodd/SafeGuard-VL-RL)  [Dataset](https://huggingface.co/datasets/tyodd/SafeEditBench) |
 | **HomeGuard** | [HomeGuard: VLM-based Embodied Safeguard for Identifying Contextual Risk in Household Task](https://arxiv.org/abs/2603.14367) | arXiv 2026 | `[M]` | Embodied VLM safeguard for contextual household risk with grounded visual anchors | [Code](https://github.com/AI45Lab/HomeGuard) |
@@ -181,6 +196,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 
 | Attack | Paper | Venue & Year | Modality | Description / Highlights | Links |
 | :----- | :--- | :----------- | :------- | :----------------------- | :---- |
+| **Posterior Attack** | [Safety Paradox: How Enhanced Safety Awareness Leaves LLMs Vulnerable to Posterior Attack](https://arxiv.org/abs/2606.05614) | arXiv 2026 | `[T]` | Single-query jailbreak that exploits models' internal safety awareness to bypass guardrails | - |
 | **JRS-Rem** | [Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift](https://arxiv.org/abs/2603.17372) | arXiv 2026 | `[M]` | Explores representation shift in VLM jailbreaks & defense | - |
 | **ALERT** | [ALERT: Zero-shot LLM Jailbreak Detection via Internal Discrepancy Amplification](https://arxiv.org/abs/2601.03600) | arXiv 2026 | `[T]` | Zero-shot detection via internal feature discrepancies | - |
 | **Echo Chamber** | [The Echo Chamber Multi-Turn LLM Jailbreak](https://arxiv.org/abs/2601.05742) | arXiv 2026 | `[T]`,`[D]` | Multi-turn gradual escalation attack | - |
