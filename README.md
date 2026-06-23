@@ -238,6 +238,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 
 | Tool | Paper | Links | Stars | Description |
 | :--- | :--- | :---- | :---- | :---------- |
+| **Armorer Guard** | - | [Code](https://github.com/ArmorerLabs/Armorer-Guard) | ⭐40+ | Local Rust scanner and MCP proxy for AI-agent prompt injection, credential leaks, exfiltration, and risky tool calls |
 | **NeMo Guardrails** | - | [Code](https://github.com/NVIDIA/NeMo-Guardrails) | ⭐6K+ | NVIDIA's programmable guardrails |
 | **LLM-Guard** | - | [Code](https://github.com/laiyer-ai/LLM-Guard) | ⭐2.8K+ | Content filtering library |
 | **Guardrails** | - | [Code](https://github.com/guardrails-ai/guardrails) | ⭐6.7K+ | Policy enforcement |
@@ -259,6 +260,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 
 | Project | Paper | Description | Links | Stars |
 | :------ | :--- | :---------- | :---- | :---- |
+| **ArmorerLabs/Armorer-Guard** | - | Local Rust scanner and MCP proxy for AI-agent security | [GitHub](https://github.com/ArmorerLabs/Armorer-Guard) | ⭐40+ |
 | **enguard-ai/awesome-ai-guardrails** | - | Curated AI guardrails resources | [GitHub](https://github.com/enguard-ai/awesome-ai-guardrails) | ⭐50+ |
 | **beyefendi/awesome-llm-security** | - | LLM security resources | [GitHub](https://github.com/beyefendi/awesome-llm-security) | ⭐10+ |
 | **yueliu1999/Awesome-Jailbreak-on-LLMs** | - | Jailbreak resources | [GitHub](https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs) | ⭐1.3K+ |
