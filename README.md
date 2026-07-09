@@ -242,6 +242,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 | **NeMo Guardrails** | - | [Code](https://github.com/NVIDIA/NeMo-Guardrails) | ⭐6K+ | NVIDIA's programmable guardrails |
 | **LLM-Guard** | - | [Code](https://github.com/laiyer-ai/LLM-Guard) | ⭐2.8K+ | Content filtering library |
 | **Guardrails** | - | [Code](https://github.com/guardrails-ai/guardrails) | ⭐6.7K+ | Policy enforcement |
+| **DarkMoon Privacy Gateway** | - | [Code](https://github.com/ASCIT31/Dark-Moon) | - | Self-hosted proxy and MCP host that tokenizes sensitive values into deterministic reversible placeholders before prompts reach the LLM, with an anti-exfiltration command gateway |
 | **Promptfoo** | - | [Code](https://github.com/promptfoo/promptfoo) | ⭐20K+ | LLM testing and safety evaluation |
 
 ### Evaluation Platforms
