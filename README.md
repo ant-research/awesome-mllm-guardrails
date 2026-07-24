@@ -259,6 +259,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 | **LLM-Guard** | - | [Code](https://github.com/laiyer-ai/LLM-Guard) | ⭐2.8K+ | Content filtering library |
 | **Guardrails** | - | [Code](https://github.com/guardrails-ai/guardrails) | ⭐6.7K+ | Policy enforcement |
 | **Promptfoo** | - | [Code](https://github.com/promptfoo/promptfoo) | ⭐20K+ | LLM testing and safety evaluation |
+| **gate.cat** | - | [Code](https://github.com/BGMLAI/gate.cat) | ⭐0 | Deterministic, fail-closed action veto that blocks irreversible shell commands (rm -rf, DROP TABLE, terraform destroy) from AI coding agents before they run, with no LLM in the veto path; runs as a Claude Code PreToolUse hook, gated shell, or local OpenAI-API proxy |
 
 ### Evaluation Platforms
 
