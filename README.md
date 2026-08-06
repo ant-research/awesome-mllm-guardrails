@@ -261,6 +261,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 | **DarkMoon Privacy Gateway** | - | [Code](https://github.com/ASCIT31/Dark-Moon) | - | Self-hosted proxy and MCP host that tokenizes sensitive values into deterministic reversible placeholders before prompts reach the LLM, with an anti-exfiltration command gateway |
 | **Promptfoo** | - | [Code](https://github.com/promptfoo/promptfoo) | ⭐20K+ | LLM testing and safety evaluation |
 | **gate.cat** | - | [Code](https://github.com/BGMLAI/gate.cat) | ⭐0 | Deterministic, fail-closed action veto that blocks irreversible shell commands (rm -rf, DROP TABLE, terraform destroy) from AI coding agents before they run, with no LLM in the veto path; runs as a Claude Code PreToolUse hook, gated shell, or local OpenAI-API proxy |
+| **verbatim-citation-gate** | - | [Code](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate) | ⭐3 | Deterministic, fail-closed citation check that verifies a quoted span literally appears in the source it was attributed to, returning found/misattributed/not_found with no LLM in the verification path; Unicode-aware normalization, usable as a pre-filter ahead of a judge model |
 
 ### Evaluation Platforms
 
