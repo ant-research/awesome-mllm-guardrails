@@ -197,6 +197,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 
 | Attack | Paper | Venue & Year | Modality | Description / Highlights | Links |
 | :----- | :--- | :----------- | :------- | :----------------------- | :---- |
+| **SABER** | [SABER: Uncovering Vulnerabilities in Safety Alignment via Cross-Layer Residual Connection](https://aclanthology.org/2025.emnlp-main.825/) | EMNLP 2025 | `[T]` | Cross-layer residual injection bypasses safety mechanisms concentrated in middle-to-late layers | [Code](https://github.com/PalGitts/SABER) |
 | **GCG** | [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | ICLR 2024 | `[T]` | Gradient-based suffix optimization | [Code](https://github.com/llm-attacks/llm-attacks) |
 | **AutoDAN** | [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/abs/2310.04451) | ICLR 2024 | `[T]` | Genetic algorithm for stealthy prompts | [Code](https://github.com/LiYing2010/AutoDAN) |
 | **COLD** | [COLD-Attack: Jailbreaking LLMs with Stealthiness and Controllability](https://arxiv.org/abs/2402.08679) | ICML 2024 | `[T]` | Controllable decoding attack | [Code](https://github.com/Yu-Fangxu/COLD-Attack) |
