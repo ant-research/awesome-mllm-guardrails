@@ -186,6 +186,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 | **MSSBench** | [Multimodal Situational Safety](https://arxiv.org/abs/2410.06172) | ICLR 2025 | `[M]` | Multimodal situational safety | [Code](https://github.com/eric-ai-lab/MSSBench) |
 | **Llama Guard 3 Vision** | [Llama Guard 3 Vision: Safeguarding Human-AI Image Understanding Conversations](https://arxiv.org/abs/2411.10414) | arXiv 2024 | `[M]` | Multimodal input/output guard | [HF](https://huggingface.co/meta-llama/Llama-Guard-3-11B-Vision)  [Code](https://github.com/meta-llama/PurpleLlama) |
 | **MM-SafetyBench** | [MM-SafetyBench: A Benchmark for Safety Evaluation of Multimodal Large Language Models](https://arxiv.org/abs/2311.17600) | ECCV 2024 | `[M]` | Multimodal safety benchmark | [HF](https://huggingface.co/datasets/PKU-Alignment/MM-SafetyBench)  [Code](https://github.com/isXinLiu/MM-SafetyBench) |
+| **SAEgis** | [Sparse Autoencoders as Plug-and-Play Firewalls for Adversarial Attack Detection in VLMs](https://arxiv.org/abs/2605.07447) | arXiv 2026 | `[I]`,`[M]` | Sparse autoencoder inserted into a frozen VLM whose sparse latents separate adversarially perturbed images from clean ones; plug-and-play detection with no adversarial training and no change to the base model | - |
 
 ---
 
