@@ -293,6 +293,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 | **NVIDIA/garak** | - | LLM vulnerability scanner | [GitHub](https://github.com/NVIDIA/garak) | ⭐7.6K+ |
 | **allenai/wildguard** | - | Safety moderation | [GitHub](https://github.com/allenai/wildguard) | ⭐100+ |
 | **PKU-Alignment/safe-rlhf** | - | Safety alignment | [GitHub](https://github.com/PKU-Alignment/safe-rlhf) | ⭐1.6K+ |
+| **Continuum-AI-Corp/Orca-AI-Incident-Archive** | - | Orca AI Incident Archive: real-world AI agent security incidents, each with a primary source and a confirmed-victim flag | [GitHub](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) | ⭐4 |
 
 ---
 ---
