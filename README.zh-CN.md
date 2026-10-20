@@ -47,6 +47,7 @@ Awesome MLLM/LLM Guardrails 是一个面向大语言模型与多模态大模型�
 
 | Benchmark | Paper | Venue & Year | Modality | Description / Highlights | Links |
 | :-------- | :--- | :----------- | :------- | :----------------------- | :---- |
+| **Decision Models as Guardrails** | - | raxIT Labs 2026 | `[T]` | 开放基准，在 8 个用例、约 10K 条相同检查上评测 19 个护栏系统（18 个决策模型，如 Jev、Clef、Perplexity 与 OpenAI Decisions API、Strands Deciders，以及 Amazon Bedrock Guardrails），按准确率与成本打分 | [Dataset](https://huggingface.co/datasets/raxITLabs/decision-models-as-guardrails), [Leaderboard](https://dm-as-guardrails.raxitlabs.com), [GitHub](https://github.com/raxITlabs/decision-models-as-guardrails) |
 | **SafePyramid** | [SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing](https://arxiv.org/abs/2606.29887) | arXiv 2026 | `[T]`,`[D]` | 层次化 in-context policy guardrailing 基准，包含 1K 多轮对话、3K 应用特定策略和 61K+ 自然语言规则，覆盖三档难度 | - |
 | **Gate AI Eval Harness** | [Gate AI: LLM Security Benchmark Evaluation Methodology and Results](https://arxiv.org/abs/2606.02959) | arXiv 2026 | `[T]` | 面向 prompt injection 与 jailbreak 检测器的评测方法，覆盖 16 个公开基准并使用全局操作点 | - |
 | **StreamSafe** | [SentGuard: Sentence-Level Streaming Guardrails for Large Language Models](https://arxiv.org/abs/2606.02041) | arXiv 2026 | `[T]` | 句子级流式安全基准，含 8 类风险的结构化标注，并刻画 reasoning/response 片段中的风险演化 | - |
