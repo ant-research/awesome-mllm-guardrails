@@ -288,6 +288,7 @@ Awesome MLLM/LLM Guardrails 是一个面向大语言模型与多模态大模型�
 | **LLM-Guard** | - | [Code](https://github.com/laiyer-ai/LLM-Guard) | ⭐2.8K+ | 内容过滤库 |
 | **Guardrails** | - | [Code](https://github.com/guardrails-ai/guardrails) | ⭐6.7K+ | 策略执行框架 |
 | **Promptfoo** | - | [Code](https://github.com/promptfoo/promptfoo) | ⭐20K+ | LLM 测试与安全评测 |
+| **UltraProbe** | - | [Code](https://github.com/ppcvote/ultraprobe) | - | 确定性的静态审计：检查系统提示词与 MCP 工具描述是否写了 25 项提示词注入防御（OWASP LLM Top 10 + Agentic ASI01-ASI09），不调用模型，可输出 SARIF 接入 CI |
 
 <a id="evaluation-platforms"></a>
 

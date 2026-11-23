@@ -266,6 +266,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 | **Promptfoo** | - | [Code](https://github.com/promptfoo/promptfoo) | ⭐20K+ | LLM testing and safety evaluation |
 | **gate.cat** | - | [Code](https://github.com/BGMLAI/gate.cat) | ⭐0 | Deterministic, fail-closed action veto that blocks irreversible shell commands (rm -rf, DROP TABLE, terraform destroy) from AI coding agents before they run, with no LLM in the veto path; runs as a Claude Code PreToolUse hook, gated shell, or local OpenAI-API proxy |
 | **verbatim-citation-gate** | - | [Code](https://github.com/Palo-Alto-AI-Research-Lab/verbatim-citation-gate) | ⭐3 | Deterministic, fail-closed citation check that verifies a quoted span literally appears in the source it was attributed to, returning found/misattributed/not_found with no LLM in the verification path; Unicode-aware normalization, usable as a pre-filter ahead of a judge model |
+| **UltraProbe** | - | [Code](https://github.com/ppcvote/ultraprobe) | - | Deterministic static audit of system prompts and MCP tool descriptions for 25 prompt-injection defenses (OWASP LLM Top 10 + Agentic ASI01-ASI09), with no LLM calls; SARIF output for CI |
 
 ### Evaluation Platforms
 
