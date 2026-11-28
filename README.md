@@ -296,6 +296,7 @@ Contributions are welcome. If you find missing papers, datasets, models, or tool
 | **allenai/wildguard** | - | Safety moderation | [GitHub](https://github.com/allenai/wildguard) | ⭐100+ |
 | **PKU-Alignment/safe-rlhf** | - | Safety alignment | [GitHub](https://github.com/PKU-Alignment/safe-rlhf) | ⭐1.6K+ |
 | **Continuum-AI-Corp/Orca-AI-Incident-Archive** | - | Orca AI Incident Archive: real-world AI agent security incidents, each with a primary source and a confirmed-victim flag | [GitHub](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) | ⭐4 |
+| **huangfeihong123/qwen3guard-cn-control-s100** | - | Auditable Chinese Qwen3Guard research snapshot with MLX/HF parity, a fail-closed API and a synthetic demo; HF/CUDA remains log-only until recalibrated | [GitHub](https://github.com/huangfeihong123/qwen3guard-cn-control-s100) [Demo](https://huangfeihong123.github.io/qwen3guard-cn-control-s100/) | ⭐1 |
 
 ---
 ---
