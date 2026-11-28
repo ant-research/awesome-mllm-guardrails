@@ -320,6 +320,7 @@ Awesome MLLM/LLM Guardrails 是一个面向大语言模型与多模态大模型�
 | **NVIDIA/garak** | - | LLM 漏洞扫描器 | [GitHub](https://github.com/NVIDIA/garak) | ⭐7.6K+ |
 | **allenai/wildguard** | - | 安全审核 | [GitHub](https://github.com/allenai/wildguard) | ⭐100+ |
 | **PKU-Alignment/safe-rlhf** | - | 安全对齐 | [GitHub](https://github.com/PKU-Alignment/safe-rlhf) | ⭐1.6K+ |
+| **huangfeihong123/qwen3guard-cn-control-s100** | - | 可审计的中文 Qwen3Guard 研究快照，提供 MLX/HF 对齐、fail-closed API 与合成演示；HF/CUDA 重标定前仅限 log-only | [GitHub](https://github.com/huangfeihong123/qwen3guard-cn-control-s100) [Demo](https://huangfeihong123.github.io/qwen3guard-cn-control-s100/) | ⭐1 |
 
 ---
 ### ✉️ Contact Us
